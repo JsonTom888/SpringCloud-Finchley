@@ -8,9 +8,9 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <groupId>com.eureka</groupId>
-    <artifactId>eureka-client</artifactId>
+    <artifactId>server-client2</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>eureka-client</name>
+    <name>server-client2</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>

@@ -1,11 +1,13 @@
-package com.eureka.serverclient2;
+package com.feign.sericefeign;
 
+
+import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ServerClient2ApplicationTests {
+class SericeFeignApplicationTests {
 
-//    @Test
+    @Test
     void contextLoads() {
     }
 

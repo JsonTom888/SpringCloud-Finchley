@@ -1,0 +1,15 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/JsonTom888/SpringCloudConfig
+          search-paths: respo
+          username:
+          password:
+        default-label: main
+

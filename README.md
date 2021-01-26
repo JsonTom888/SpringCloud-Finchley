@@ -1,1 +1,1 @@
-[springcloud基础教程](https://github.com/Kangshifu1973/SpringCloudLearning)
+[springcloud基础教程F版本](https://github.com/Kangshifu1973/SpringCloudLearning)

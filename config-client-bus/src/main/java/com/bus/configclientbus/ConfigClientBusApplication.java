@@ -1,5 +1,4 @@
-package com.config.configclient;
-
+package com.bus.configclientbus;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
@@ -15,10 +14,9 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableEurekaClient
 @EnableDiscoveryClient
 @RefreshScope
-public class ConfigClientApplication {
-
+public class ConfigClientBusApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ConfigClientApplication.class, args);
+        SpringApplication.run(ConfigClientBusApplication.class, args);
     }
 
     @Value("${foo}")

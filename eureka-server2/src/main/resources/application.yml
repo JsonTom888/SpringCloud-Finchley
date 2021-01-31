@@ -1,13 +1,13 @@
 server:
-  port: 8761
+  port: 8769
 eureka:
   instance:
-    hostname: peer1
+    hostname: peer2
   client:
 #    register-with-eureka: false
 #    fetch-registry: false
     serverurl:
-      defaultZone: http://peer2:8769/eureka/
+      defaultZone: http://peer1:8761/eureka/
 spring:
   application:
     name: eureka-server

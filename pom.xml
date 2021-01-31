@@ -13,12 +13,12 @@
     <artifactId>springcloud</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>springcloud</name>
+    <packaging>pom</packaging>
     <description>Demo project for Spring Boot</description>
 
-<!--    <modules>-->
-<!--        <module>eureka-server</module>-->
-<!--        <module>service-hi</module>-->
-<!--    </modules>-->
+    <modules>
+        <module>eureka-server</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

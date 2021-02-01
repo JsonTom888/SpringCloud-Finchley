@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @date 2021/1/24 22:36
  */
 @RestController
-public class HelloController {
+public class HeController {
 
     @Value("${server.port}")
     String port;
